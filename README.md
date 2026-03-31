@@ -4,27 +4,27 @@ mobile - projeto
 # descrição
 Sistema de "tickets" para atendimento de usuário
 
-#funções
-##Tab01
+# funções
+## Tab01
 Emissor de senhas
-*escolha do tipo de senha
+* escolha do tipo de senha
 
 
 <!--inserir imagem da aba aqui-->
 
-##Tab02
+## Tab02
 Painel do Atendente
-*chamada de senha
-*declaração do estado do Guiche
-*lista de ultimas chamadas (limite 5 senhas)
+* chamada de senha
+* declaração do estado do Guiche
+* lista de ultimas chamadas (limite 5 senhas)
 
 <!--inserir imagem da aba aqui-->
 
-##Tab03
+## Tab03
 Relatório
-*Relatório diário de senhas emitidas emitidas pelo sistema
-*quantificação dos clientes pelo seu tipo de senha
-*Exportação dos dados como PDf 
+* Relatório diário de senhas emitidas emitidas pelo sistema
+* quantificação dos clientes pelo seu tipo de senha
+* Exportação dos dados como PDf 
 
 <!--inserir imagem da aba aqui-->
 
