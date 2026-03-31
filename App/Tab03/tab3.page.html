@@ -1,0 +1,36 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>📊 Relatórios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Relatório Diário</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>Total Emitidas: {{relatorio.totalEmitidas}}</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Total Atendidas: {{relatorio.totalAtendidas}}</ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>SP: {{relatorio.porTipo.SP.emitidas}}/{{relatorio.porTipo.SP.atendidas}}</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>SG: {{relatorio.porTipo.SG.emitidas}}/{{relatorio.porTipo.SG.atendidas}}</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>SE: {{relatorio.porTipo.SE.emitidas}}/{{relatorio.porTipo.SE.atendidas}}</ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" color="tertiary" (click)="gerarPDF()">
+    📄 Exportar PDF
+  </ion-button>
+</ion-content>

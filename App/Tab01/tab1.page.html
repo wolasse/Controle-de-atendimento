@@ -1,0 +1,40 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>🏥 Emissão de Senhas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Retire sua senha</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button expand="block" color="primary" (click)="emitirSenha('SP')">
+        ⭐ Senha Prioritária (SP)
+      </ion-button>
+      <ion-button expand="block" color="medium" (click)="emitirSenha('SG')">
+        📋 Senha Geral (SG)
+      </ion-button>
+      <ion-button expand="block" color="success" (click)="emitirSenha('SE')">
+        🧪 Retirada Exames (SE)
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Fila Atual</ion-label>
+    </ion-list-header>
+    
+    <ion-list-header>SP (Prioritária)</ion-list-header>
+    <ion-item *ngFor="let senha of senhasSP$ | async">{{senha.numero}}</ion-item>
+    
+    <ion-list-header>SE (Exames)</ion-list-header>
+    <ion-item *ngFor="let senha of senhasSE$ | async">{{senha.numero}}</ion-item>
+    
+    <ion-list-header>SG (Geral)</ion-list-header>
+    <ion-item *ngFor="let senha of senhasSG$ | async">{{senha.numero}}</ion-item>
+  </ion-list>
+</ion-content>
