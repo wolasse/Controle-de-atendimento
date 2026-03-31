@@ -1,10 +1,10 @@
 # Controle-de-atendimento
 mobile - projeto 
 
-# descrição
+# Descrição
 Sistema de "tickets" para atendimento de usuário
 
-# funções
+# Funções
 ## Tab01
 Emissor de senhas
 * escolha do tipo de senha
@@ -28,7 +28,7 @@ Relatório
 
 <!--inserir imagem da aba aqui-->
 
-# autores do projeto
+# Autores do projeto
 * Diego Antônio Rodrigues da Silva - 01802797
 * Daniel Victor Xavier Tavares - 01799049
 * João Lucas Araújo dos Santos - 01798055
