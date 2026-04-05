@@ -49,5 +49,6 @@ Relatório
 * Marcos André de Farias Soares Filho - 01809049
 * Mikael Lucas da Silva - 01815744
 * Rafael Bernardes Pereira Bezerra - 01817888
+* Ruan Nicolas Bezerra da Silva - 01784105
 * Tarcio José de Freitas Silva - 01794539
 * Wolasse João Alquino Ramos - 01793126
