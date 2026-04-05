@@ -9,7 +9,7 @@ mobile - projeto
 
  * SP(senha prioritaria)
  * SE(senha de exames)
- * * SG(senha geral)
+ * SG(senha geral)
 
 ## Especificações
 * Framework: Ionic
