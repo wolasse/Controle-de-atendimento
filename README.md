@@ -2,7 +2,21 @@
 mobile - projeto 
 
 # Descrição
-Sistema de "tickets" para atendimento de usuário
+  Este projeto consiste no desenvolvimento de um sistema de gestão de atendimento (tickets) voltado para laboratórios médicos. O objetivo é gerenciar o fluxo de pacientes desde a emissão da senha até o atendimento final no guichê, otimizando a organização das filas por meio de regras de priorização e cálculos de tempo médio.
+
+## Regras de atendimento
+  São retiradas fichas de acordo com a necessidadedo cliente, fichas são organizadas apartir dos tipos abaixo
+
+ * SP(senha prioritaria)
+ * SE(senha de exames)
+ * * SG(senha geral)
+
+## Especificações
+* Framework: Ionic
+
+ * Tipo de Projeto: Angular
+ * Template de Navegação: Tabs (Abas)
+ * Motor de Renderização: Capacitor
 
 # Funções
 ## Tab01
